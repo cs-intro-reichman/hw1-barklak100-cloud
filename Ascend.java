@@ -1,8 +1,4 @@
-// Generates three integer random numbers in a given range,
-// and prints them in increasing order.
-
 import java.util.Random;
-
 public class Ascend {
 	public static void main(String[] args) {
 int Lim = Integer.parseInt(args[0]);
