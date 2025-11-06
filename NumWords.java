@@ -3,7 +3,6 @@ public class NumWords {
 	public static void main(String args[]) 
 	{
 	    // Replace this comment with your code
-		int num;
 		int num = Integer.parseInt(args[0]);
 		int hundreds = num / 100;
 		int tens = (num % 100) / 10;
