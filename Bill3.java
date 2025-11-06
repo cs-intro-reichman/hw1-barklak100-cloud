@@ -10,7 +10,7 @@ public static void main(String[] args) {
 		double totalAmountDouble = (double) total_amount;
         double amountPerPersonExact = (double) total_amount / 3.0;
 		double amountToPay = Math.ceil(amountPerPersonExact);
-        String namesInReversOrder = name3 + ", " + name2 + " ," + name1;
+        String namesInReversOrder = name3 + ", " + name2 + ", and" + name1;
 		String outputMessage = "Dear " + namesInReversOrder + ": pay " + amountToPay + " Shekels each.";
 		System.out.println(outputMessage); 
 	}
