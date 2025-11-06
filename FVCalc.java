@@ -12,6 +12,6 @@ double base = 1.0 + rate;
  double futureValueDouble = principal * power;
 int futureValueint = (int) Math.round(futureValueDouble);
 System.out.printf("after %d years' $%.0f saved at %.1f%% will yield $%d%n",
- years, principal, annualRatePercent, futureValueint);}
-	}
+ years, principal, annualRatePercent, futureValueint);
 }
+	}
