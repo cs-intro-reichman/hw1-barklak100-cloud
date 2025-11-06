@@ -22,7 +22,7 @@ public class TimeFormat {
         String suffix = "PM"; 
         
         if (hour24 == 0) {
-            hour12 = 12; 
+            hour12 = 0; 
             suffix = "AM";
         } else if (hour24 >= 1 && hour24 <= 11) {
             hour12 = hour24;
