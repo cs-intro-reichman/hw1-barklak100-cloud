@@ -3,20 +3,13 @@ public class NumWords {
 	public static void main(String args[]) 
 	{
 	    // Replace this comment with your code
-		int number;
-
-		number = Integer.parseInt(args[0]);
-
-		int hundreds = number / 100; 
-
-		int remainder = number % 100;
-
-		int tens = number / 10;
-
-		int ones = remainder % 10;
-
-		System.out.println(hundreds + "hundreds" + tens + "tens" + ones + "ones.");
-
+		int num;
+		int num = Integer.parseInt(args[0]);
+		int hundreds = num / 100;
+		int tens = (num % 100) / 10;
+		int ones = num % 10;
+		String output = hundreds + " hundreds, " + tens + " tens, and " + ones + " ones.";
+		System.out.println(output);
 
 
 
